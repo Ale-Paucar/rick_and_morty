@@ -1,0 +1,11 @@
+.formulario{
+    background-color: rgba(41, 19, 61, 0.793);
+    height: 500px;
+    width: 700px;
+    font-size: 30px;
+}
+
+.errorsMsjs{
+    font-size: 16px;
+    color: rgba(186, 20, 20, 0.638);
+}

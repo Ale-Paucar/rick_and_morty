@@ -1,0 +1,10 @@
+.divContNav{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+

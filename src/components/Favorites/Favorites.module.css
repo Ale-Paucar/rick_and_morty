@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'VoxRound';
+	src: url('../fonts/VoxRound-Medium.eot');
+	src: local('☞VoxRound-Medium'), local('VoxRound-Medium'),
+		url('../fonts/VoxRound-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/VoxRound-Medium.woff') format('woff'),
+		url('../fonts/VoxRound-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+.divPrincipal{
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'VoxRound','Sans Serif';
+    color: #5fe03f;
+    width: 100vw;
+    height: 100vh;
+    max-width: 270px;
+    max-height: 400px;
+    border-radius: 6px;
+    background-color: #091a04;
+    border: 1px solid #5fe03f;
+}
+/* color: #113408 */
+
+.buttonClose{
+    margin: 0;
+    padding: 0;
+    width: 5vw;
+    align-self: flex-end;
+    order: 1;
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: #5fe03f;
+
+}
+
+.subTitulo1{
+    width: 100%;
+    margin: 0;
+    font-size: 1em;
+    order: 2;
+}
+
+.subTitulo2Div{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    order: 4;
+}
+
+.subTitulo2{
+    width: 50%;
+    margin: 0;
+    font-size: 1em;
+    
+}
+
+.image{
+    width: 100%;
+    order:3
+}

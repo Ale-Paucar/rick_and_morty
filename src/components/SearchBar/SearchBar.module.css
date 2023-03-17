@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'VoxRound';
+	src: url('../fonts/VoxRound-Medium.eot');
+	src: local('☞VoxRound-Medium'), local('VoxRound-Medium'),
+		url('../fonts/VoxRound-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/VoxRound-Medium.woff') format('woff'),
+		url('../fonts/VoxRound-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+.inpt{
+	color: #5fe03f;
+	font-family: 'VoxRound';
+    background-color: #113408;
+    border: 1px solid #1f590e;
+    border-radius: 2.5px 0px 0px 2.5px;
+}
+
+.buttonAgregar{
+    color: #5fe03f;
+	font-family: 'VoxRound';
+	border-color: -internal-light-dark(rgb(1, 51, 20), rgba(2, 25, 3, 0.593));
+    background-color: #113408;
+    border: 1px solid #1f590e;
+    border-radius: 0px 2.5px 2.5px 0px;
+}
