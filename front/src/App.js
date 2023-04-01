@@ -24,14 +24,16 @@ function App () {
 
   
   const onSearch = (id) =>{
-    const URL_BASE = "https://be-a-rym.up.railway.app/api";
-    const key = "d66ed9e3539f.e190f2682879ad1a64d3";
-
+    // const URL_BASE = "https://be-a-rym.up.railway.app/api";
+    // const key = "d66ed9e3539f.e190f2682879ad1a64d3";
+    const URL_BASE = "http://localhost:3001/rickandmorty"
+    
     if(characters.find((char)=> char.id === id)){
       return alert("Personaje repetido");
     }
-
-    fetch(`${URL_BASE}/character/${id}?key=${key}`)
+    
+    //fetch(`${URL_BASE}/character/${id}?key=${key}`)
+    fetch(`${URL_BASE}/character/${id}`)
       .then((response) => response.json())
       .then((data) => {
         if (data.name) {
