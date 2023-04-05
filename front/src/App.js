@@ -33,7 +33,7 @@ function App () {
     }
     
     //fetch(`${URL_BASE}/character/${id}?key=${key}`)
-    fetch(`${URL_BASE}/character/${id}`)
+    fetch(`${URL_BASE}/onsearch/${id}`)
       .then((response) => response.json())
       .then((data) => {
         if (data.name) {

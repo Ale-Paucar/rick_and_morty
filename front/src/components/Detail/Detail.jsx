@@ -8,13 +8,13 @@ export default function Detail(){
     const [character, setCharacter] = useState({});
     
     useEffect(() => {
-        const URL_BASE = "https://be-a-rym.up.railway.app/api";
-        const key = "d66ed9e3539f.e190f2682879ad1a64d3";
+        const URL_BASE = "http://localhost:3001/rickandmorty";
+        //const key = "d66ed9e3539f.e190f2682879ad1a64d3";
 
-        axios(`${URL_BASE}/character/${detailId}?key=${key}`).then((response)=>
+        axios(`${URL_BASE}/detail/${detailId}`).then((response)=>
             setCharacter(response.data)
         );
-    }, []);
+    }, []); 
     
 
     return(
